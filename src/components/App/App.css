@@ -1,0 +1,7 @@
+.App {
+  text-rendering: optimizeSpeed;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}

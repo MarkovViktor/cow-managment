@@ -1,0 +1,144 @@
+.Order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  height: 98vh;
+  color: rgb(0, 0, 0);
+  min-height: 790px;
+}
+
+.order__container {
+  display: flex;
+  width: 70%;
+}
+
+.order__price {
+  width: 70%;
+  font-size: calc(100vw / 35.8888);
+  color: #223ea1;
+  font-weight: 600;
+}
+
+.order__price_delivered {
+  color: #007bb4;
+  font-size: calc(100vw / 39.8888);
+}
+
+.order__logo_img {
+  mix-blend-mode: darken;
+  width: 20%;
+  height: 150px;
+  min-width: 209px;
+}
+
+.order__text {
+  margin: 0 auto;
+  font-size: calc(100vw / 30.8888);
+}
+
+.order__contact {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-size: calc(100vw / 56.8888);
+}
+
+.order__contact_networck {
+  font-size: calc(100vw / 30.3008);
+  color: #747769;
+}
+
+.order__contact_number {
+  text-decoration: none;
+  font-size: calc(100vw / 56.3008);
+  display: flex;
+}
+
+.order__contact_phone {
+  margin: 14px 0 0 15px;
+  color: #747769;
+  font-size: calc(100vw / 30.8888);
+  font-weight: 500;
+  transition: .7s;
+}
+
+.order__contact_phone:hover {
+  opacity: 0.6;
+  transition: .1s;
+}
+
+.order__contact_logo {
+  margin: 10px 0 0 0;
+}
+
+@media screen and ( max-width: 720px ) {
+  .order__container {
+    flex-direction: column; 
+  }
+
+  .order__text {
+    font-size: calc(100vw / 26.8888);
+  }
+
+  .order__logo_img {
+    align-self: center;
+  }
+
+  .order__contact_logo {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .order__price {
+    font-size: calc(100vw / 26.8888);
+  }
+  
+  .order__price_delivered {
+    font-size: calc(100vw / 29.8888);
+  }
+
+  .order__contact_networck {
+    font-size: calc(100vw / 23.3008);
+  }
+
+  .order__contact_phone {
+    font-size: calc(100vw / 23.3008);
+  }
+}  
+
+@media screen and ( min-width: 720px ) {
+  .Order {
+    min-height: 850px;
+  }
+
+  .order__text {
+    font-size: calc(100vw / 35.8888);
+  }
+}  
+
+@media screen and ( min-width: 1000px ) {
+
+  .order__text {
+    font-size: calc(100vw / 65.8888);
+  }
+
+  .order__price {
+    font-size: calc(100vw / 50.8888);
+  }
+
+  .order__price_delivered {
+    font-size: calc(100vw / 57.8888);
+  }
+
+  .order__contact_phone {
+    font-size: calc(100vw / 50.8888);
+  }
+
+  .order__contact_networck {
+    font-size: calc(100vw / 50.8888);
+  }
+}  

@@ -1,0 +1,25 @@
+.Footer {
+  background-color: #1A1A1D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vw / 63.8888);
+}
+
+.footer__title {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+  font-weight: 400;
+  text-decoration: none;
+  font-size: calc(100vw / 90.8888);
+}
+
+@media screen and ( max-width: 770px ) {
+  .Footer {
+    height: calc(100vw / 20.8888);
+  }
+
+  .footer__title {
+    font-size: 12px;
+  }
+}
